@@ -1,0 +1,9 @@
+<!ELEMENT tter (row*)>
+<!ELEMENT row (id)>
+<!ELEMENT id (#PCDATA)>
+
+<!ATTLIST tter coulmn0 CDATA #REQUIRED >
+<!ATTLIST tter sizeCol CDATA #REQUIRED >
+<!ATTLIST tter sizeRow CDATA #REQUIRED >
+
+<!ATTLIST row id CDATA #REQUIRED >

@@ -1,0 +1,9 @@
+<!ELEMENT jjg (row*)>
+<!ELEMENT row (jjf)>
+<!ELEMENT jjf (#PCDATA)>
+
+<!ATTLIST jjg coulmn0 CDATA #REQUIRED >
+<!ATTLIST jjg sizeCol CDATA #REQUIRED >
+<!ATTLIST jjg sizeRow CDATA #REQUIRED >
+
+<!ATTLIST row id CDATA #REQUIRED >

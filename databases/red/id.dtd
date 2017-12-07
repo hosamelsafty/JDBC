@@ -1,0 +1,15 @@
+<!ELEMENT id (row*)>
+<!ELEMENT row (id,age,age1,names1)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT age1 (#PCDATA)>
+<!ELEMENT names1 (#PCDATA)>
+
+<!ATTLIST id coulmn0 CDATA #REQUIRED >
+<!ATTLIST id coulmn1 CDATA #REQUIRED >
+<!ATTLIST id coulmn2 CDATA #REQUIRED >
+<!ATTLIST id coulmn3 CDATA #REQUIRED >
+<!ATTLIST id sizeCol CDATA #REQUIRED >
+<!ATTLIST id sizeRow CDATA #REQUIRED >
+
+<!ATTLIST row id CDATA #REQUIRED >

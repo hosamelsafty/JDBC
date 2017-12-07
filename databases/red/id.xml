@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE id SYSTEM "id.dtd">
+<id coulmn0="id:int" coulmn1="age:int" coulmn2="age1:int" coulmn3="names1:varchar" sizeCol="4" sizeRow="0"/>
